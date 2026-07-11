@@ -121,3 +121,13 @@ ul {
     margin-top: 5px;
     margin-left: 20px;
 }
+
+.pricing-parent h1, p {
+    
+    text-align: center;
+    padding: 7px;
+    
+}
+.pricing-parent h1 {
+    font-size: 45px;
+}
