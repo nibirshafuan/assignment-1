@@ -16,7 +16,7 @@ nav{
     height: 80px;
 }
 
-ul {
+.ul-1 {
     display: flex;
     list-style: none;
     gap: 30px;
@@ -122,12 +122,158 @@ ul {
     margin-left: 20px;
 }
 
-.pricing-parent h1, p {
+.pricing-0 h1, p {
     
     text-align: center;
     padding: 7px;
     
 }
-.pricing-parent h1 {
+.pricing-0 h1 {
     font-size: 45px;
+}
+
+.pricing-parent {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.pricing-1,
+.pricing-2,
+.pricing-3 {
+    width: 33%;
+    padding: 35px;
+    border: 1px solid #c6bbbb;
+    border-radius: 12px;
+}
+.pricing-2 {
+    background-color: rgb(15, 28, 57);
+    color: white;
+}
+
+.pricing-1 h1,
+.pricing-2 h1,
+.pricing-3 h1 {
+    font-size: 45px;
+    margin: 10px 0 0;
+}
+.pricing-1 p,
+.pricing-2 p,
+.pricing-3 p {
+
+    text-align: left;
+    margin: 0;
+}
+.pricing-1 ul,
+.pricing-2 ul,
+.pricing-3 ul {
+    border-top: 1px solid #ddd;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.pricing-1 li,
+.pricing-2 li,
+.pricing-3 li {
+    margin-bottom: 15px;
+}
+.pricing-1 button,
+.pricing-2 button,
+.pricing-3 button {
+    font-size: 16px;
+    width: 100%;
+    padding: 18px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-weight:bold;
+    cursor: pointer;
+    
+}
+
+.pricing-1 button {
+    background-color: white;
+    color: rgb(51, 51, 227);
+    border: 1px solid rgb(51, 51, 227);
+}
+
+.pricing-2 button {
+    background-color: rgb(51, 51, 227);
+    color: white;
+    border: 1px solid rgb(51, 51, 227);
+}
+
+.newsletter {
+    background-color: #101f3d;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+    margin-bottom: 50px;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-form input {
+    width: 350px;
+    padding: 15px;
+    border: none;
+}
+
+.newsletter-form button {
+    padding: 15px 25px;
+    border: none;
+    background-color: rgb(52, 52, 224);
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: rgb(27, 27, 59);
+    color: #8b98a8;
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 25px;
 }
